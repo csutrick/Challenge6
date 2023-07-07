@@ -1,0 +1,131 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #4d67ea , #271264);
+    color: white;
+}
+/* Holds Everything */
+.container {
+    display: flex;
+    height: 100%;
+}
+
+
+
+/* Sidebar Container */
+.sidebar {
+    flex: 0 0 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 1px 0px 1px;
+    margin-left: 10px;
+}
+.searchTitle {
+    color: black;
+    font-size: 36px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+#userInput {
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    border: 2px grey solid;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+#search-button {
+    background-color: #4d67ea;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    border: 2px grey solid;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+#search-button:hover {
+    background-color: #3754e4;
+    scale: 102%;
+}
+/* Past Search Container */
+#container-pastSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 4px black solid;
+}
+.pastSearch {
+    color: black;
+    background-color: rgb(154, 154, 154);
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.pastSearch:hover {
+    background-color: rgb(127, 127, 127);
+    scale: 101%;
+}
+
+
+
+/* Content Container */
+.container-content {
+    flex: 1;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-right: 200px;
+}
+/* Day forecast */
+.container-currentTemp {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+}
+#header-locationDate {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+#header-temp {
+    padding: 10px;
+    font-size: 18px;
+}
+#header-wind {
+    padding: 10px;
+    font-size: 18px;
+}
+#header-humid {
+    padding: 10px 10px 20px 10px;
+    font-size: 18px;
+}
+/* 5 day forcast */
+.container-fiveDay {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    padding-left: 10px;
+}
+.fiveDay-header {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+#fiveDay-content {
+    display: flex;
+    justify-content: space-between;
+}
+.fiveDay-card {
+    background-color: rgb(82, 83, 108);
+    width: 17%;
+    height: 250px;
+}
