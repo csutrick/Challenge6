@@ -23,7 +23,7 @@ var inputHandler = function (event) {
 // API function
 var getApi = function(city) {
     // URL
-    var requestUrl = 'http://api.openweathermap.org/data/2.5/forecast?q=' + city + ',usa&units=imperial&cnt=6&APPID=adf18ae524fd38390fa6667d35153b0c';
+    var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?q=' + city + ',usa&units=imperial&cnt=6&APPID=adf18ae524fd38390fa6667d35153b0c';
     // Fetch
     fetch(requestUrl)
         .then(function (response) {
