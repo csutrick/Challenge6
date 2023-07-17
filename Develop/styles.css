@@ -86,25 +86,30 @@ header {
     margin-right: 200px;
 }
 /* Day forecast */
-.container-currentTemp {
+#container-currentTemp {
     display: flex;
     flex-direction: column;
     border: 3px solid black;
 }
-#header-locationDate {
+.header-locationDate {
     padding: 10px;
     font-size: 36px;
     font-weight: bold;
 }
-#header-temp {
+.header-date {
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header-temp {
     padding: 10px;
     font-size: 18px;
 }
-#header-wind {
+.header-wind {
     padding: 10px;
     font-size: 18px;
 }
-#header-humid {
+.header-humid {
     padding: 10px 10px 20px 10px;
     font-size: 18px;
 }
@@ -126,6 +131,9 @@ header {
 }
 .fiveDay-card {
     background-color: rgb(82, 83, 108);
+    display: flex;
+    flex-direction: column;
     width: 17%;
     height: 250px;
+    color: white;
 }
